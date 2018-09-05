@@ -6,17 +6,64 @@
     background-color: #676767;
 }
 
+.bg-color-three-reasons {
+    background-color: #ffffff;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
+
 .ui-menu-color-resume {
     background-color: #9b59b6;
 }
+
 .ui-menu-color-contact {
     background-color: #3498db;
 }
+
 .ui-menu-color-download {
     background-color: #525252;
+}
+
+/*---------------------------Special Paddings, Margin, Text*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.section-column {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*--------------------------------------------------Heading*/
@@ -78,7 +125,7 @@ header {
     height: 120px;
 }
 
-.menuitem a i{
+.menuitem a i {
     padding-top: 22px;
     display: block;
     color: #fafafa;
@@ -97,7 +144,61 @@ header {
 }
 
 /*------------------------------------------------Hover.css*/
+
 .hvr-sweep-to-bottom:before {
-    background: rgba(0,0,0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+
+/*---------------------------------------------------Footer*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+footer .cv-pdf i {
+    color: #fafafa;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+footer .cv-pdf i:hover {
+    color: #e84610;
+    transition: all 0.35 ease-in-out;
+    -moz-transition: all 0.35 ease-in-out;
+    -webkit-transition: all 0.35 ease-in-out;
+    -o-transition: all 0.35 ease-in-out;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35 ease-in-out;
+    -moz-transition: all 0.35 ease-in-out;
+    -webkit-transition: all 0.35 ease-in-out;
+    -o-transition: all 0.35 ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    margin: 20px;
 }
