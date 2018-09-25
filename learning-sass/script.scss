@@ -1,0 +1,79 @@
+$class-name: item;
+
+@for $i from 1 through 4 {
+    .#{$class-name}-#{$i} {
+        width: 60px + $i;
+    }
+}
+
+@mixin button($color, $size) {
+    width: $size;
+    height: $size / 2;
+
+    border: 1px solid $color;
+
+    @if $color==#e84610 {
+        color: #fff;
+    }
+    @else {
+        color: $color;
+    }
+}
+
+.btn {
+    @include button(#e84610, 200px)
+}
+
+
+/*Scripting*/
+
+$blue: #0997d3;
+$red: #e84610;
+$green: #bada55;
+$black: #000000;
+$white: #ffffff;
+
+$width: 300px;
+$height: 300px;
+
+$colorList: $blue,
+$red,
+$green,
+$black,
+$white;
+$colors: ( cblue: #0997d3,
+cred: #e84610,
+cgreen: #bada55,
+cblack: #000000,
+cwhite: #ffffff);
+
+@each $key,
+$value in $colors {
+    .item-#{$key} {
+        background-color: $value;
+    }
+}
+
+body {
+    background-color: $black;
+}
+
+div {
+    width: $width;
+    height: $height;
+    border: 1px solid $black;
+}
+
+@function pxToEm($value, $base) {
+    @return ($value / $base)+em;
+}
+
+h1 {
+    font-size: pxToEm(32, 16);
+    color: $white;
+}
+
+$class: container;
+div.#{$class} {
+    background-color: orange;
+}

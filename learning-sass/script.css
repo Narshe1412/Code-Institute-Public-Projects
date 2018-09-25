@@ -1,0 +1,50 @@
+.item-1 {
+  width: 61px; }
+
+.item-2 {
+  width: 62px; }
+
+.item-3 {
+  width: 63px; }
+
+.item-4 {
+  width: 64px; }
+
+.btn {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #e84610;
+  color: #fff; }
+
+/*Scripting*/
+.item-cblue {
+  background-color: #0997d3; }
+
+.item-cred {
+  background-color: #e84610; }
+
+.item-cgreen {
+  background-color: #bada55; }
+
+.item-cblack {
+  background-color: #000000; }
+
+.item-cwhite {
+  background-color: #ffffff; }
+
+body {
+  background-color: #000000; }
+
+div {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000000; }
+
+h1 {
+  font-size: 2em;
+  color: #ffffff; }
+
+div.container {
+  background-color: orange; }
+
+/*# sourceMappingURL=script.css.map */
