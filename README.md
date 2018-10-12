@@ -5,10 +5,12 @@ Attending Full Stack bootcamp online course on Code Institute
 More information on [their website](https://www.codeinstitute.net/mentored-online/)
 
 This repository includes some code examples performed while doing the tutorials, and studying the material included in the course.
+Belows there's also a section for the hands-on projects, built from scratch with no assistance.
 
 ## Tutorials
 - [Jasmine](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-jasmine)
 - [Sass](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-sass)
+- [Python](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-python-unittest)
 
 ## Guided Projects
 - [Online Resume Website](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/project-resume)
