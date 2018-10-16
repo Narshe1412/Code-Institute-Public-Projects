@@ -8,13 +8,17 @@ This repository includes some code examples performed while doing the tutorials,
 Belows there's also a section for the hands-on projects, built from scratch with no assistance.
 
 ## Tutorials
+
 - [Jasmine](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-jasmine)
 - [Sass](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-sass)
-- [Python](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-python-unittest)
+- [Python Unit Testing](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-python-unittest)
+- [Python Flask Framework](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-python-flask)
 
 ## Guided Projects
+
 - [Online Resume Website](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/project-resume)
 - [Data Dashboard](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/project-d3-dashboard) (D3, DC and Crosstab)
 
 ## Course Projects
+
 - [User Centric Responsive Website](https://narshe1412.github.io/Code-Institute-User-Centric-Frontend/) (HTML, CSS, Bootstrap)

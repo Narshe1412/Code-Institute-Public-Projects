@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="row">
+    <div class="col-md-5">
+        <img src="{{ member.image_source }}" alt "Profile image for {{member.name}}" />
+    </div>
+</div>
+<div class="col-md-12">
+    <p>{{ member.description }}</p>
+</div>
+{% endblock %}
