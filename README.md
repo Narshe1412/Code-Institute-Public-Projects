@@ -18,6 +18,7 @@ Belows there's also a section for the hands-on projects, built from scratch with
 
 - [Online Resume Website](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/project-resume)
 - [Data Dashboard](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/project-d3-dashboard) (D3, DC and Crosstab)
+- [Lightweight chat app](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/project-python-chat) (Flask)
 
 ## Course Projects
 
