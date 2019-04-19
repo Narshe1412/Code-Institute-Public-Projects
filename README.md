@@ -1,5 +1,8 @@
 # Code Institute Projects
 
+[![Updates](https://pyup.io/repos/github/Narshe1412/Code-Institute-Public-Projects/shield.svg)](https://pyup.io/repos/github/Narshe1412/Code-Institute-Public-Projects/)
+[![Python 3](https://pyup.io/repos/github/Narshe1412/Code-Institute-Public-Projects/python-3-shield.svg)](https://pyup.io/repos/github/Narshe1412/Code-Institute-Public-Projects/)
+
 Attending Full Stack bootcamp online course on Code Institute
 
 More information on [their website](https://www.codeinstitute.net/mentored-online/)
