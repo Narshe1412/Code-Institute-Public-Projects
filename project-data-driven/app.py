@@ -17,6 +17,11 @@ def get_tasks():
     return render_template("tasks.html", tasks=mongo.db.tasks.find())
 
 
+@app.route('/add_task')
+def add_task():
+    return render_template("addTask.html", categories=mongo.db.categories.find())
+
+
 if __name__ == "__main__":
     if(os.environ.get("WINDIR")):
         app.run(host="localhost", port=8888, debug=True)
