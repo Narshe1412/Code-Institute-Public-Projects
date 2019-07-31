@@ -16,7 +16,7 @@ Belows there's also a section for the hands-on projects, built from scratch with
 - [Sass](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-sass)
 - [Python Unit Testing](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-python-unittest)
 - [Python Flask Framework](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-python-flask)
-- [Python MongoDB Driver](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-python-mongo)
+- [Python MongoDB Driver](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-mongo)
 
 ## Guided Projects
 
