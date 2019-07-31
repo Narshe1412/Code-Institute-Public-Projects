@@ -93,7 +93,7 @@ def insert_category():
 
 @app.route('/add_category')
 def add_category():
-    return render_template('addcategory.html')
+    return render_template('addCategory.html')
 
 
 # Main
