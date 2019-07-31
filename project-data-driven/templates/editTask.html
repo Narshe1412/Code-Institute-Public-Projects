@@ -1,0 +1,75 @@
+{% extends "base.html" %} {% block content %}
+<h3>Edit Task</h3>
+<div class="row">
+  <form action="{{ url_for('update_task', task_id=task._id) }}" method="POST" class="col s12">
+    <div class="row">
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">poll</i>
+          <select id="category" name="category_name">
+            <option value="" disabled selected>Choose Category</option>
+            {% for category in categories %} {% if category.category_name == task.category_name %}
+            <option value="{{ category.category_name }}" selected>{{ category.category_name }}</option>
+            {% else %}
+            <option value="{{ category.category_name }}">{{ category.category_name }}</option>
+            {% endif %} {% endfor %}
+          </select>
+          <label>Task Category</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">assignment</i>
+          <input id="task_name" name="task_name" type="text" class="validate" value="{{ task.task_name }}" />
+          <label for="task_name">Task Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">subject</i>
+          <textarea name="task_description" id="task_description" class="materialize-textarea">{{
+            task.task_description
+          }}</textarea>
+          <label for="task_description">Task Description</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12" id="matfix">
+          <i class="material-icons prefix">today</i>
+          <input id="due_date" name="due_date" type="text" class="datepicker" />
+          <label for="due_date">Due Date</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="switch">
+          <label>
+            {% if task.is_urgent %}
+            <input type="checkbox" id="is_urgent" name="is_urgent" checked />
+            {% else %}
+            <input type="checkbox" id="is_urgent" name="is_urgent" />
+            {% endif }
+            <span class="lever"></span>
+            Is Urgent
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <button class="btn waves-effect waves-light" type="submit" name="action">
+          <i class="material-icons right">playlist_add</i>
+          Edit Task
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+{% endblock %}
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    due_date = Date.parse('{{task.due_date}}');
+    $('#due_date')
+      .pickadate('picker')
+      .set('select', due_date, { format: 'dd/mm/yyy' })
+      .trigger('change');
+  });
+</script>
