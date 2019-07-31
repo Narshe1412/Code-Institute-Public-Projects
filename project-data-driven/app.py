@@ -84,6 +84,18 @@ def delete_category(category_id):
     return redirect(url_for('get_categories'))
 
 
+@app.route('/insert_category', methods=['POST'])
+def insert_category():
+    category_doc = {'category_name': request.form.get('category_name')}
+    mongo.db.categories.insert_one(category_doc)
+    return redirect(url_for('get_categories'))
+
+
+@app.route('/add_category')
+def add_category():
+    return render_template('addcategory.html')
+
+
 # Main
 if __name__ == "__main__":
     if(os.environ.get("WINDIR")):
