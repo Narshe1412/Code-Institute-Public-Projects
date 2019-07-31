@@ -3,8 +3,14 @@
   {% for task in tasks %}
   <li>
     <div class="collapsible-header">
-      <i class="material-icons">expand_more</i>
-      <strong>{{ task.task_name }}</strong> - {{ task.due_date }}
+      <div class="col s3">
+        <i class="material-icons">expand_more</i>
+        <a class="waves-effect waves-light btn btn_small">Done</a>
+        <a class="waves-effect waves-light btn btn_small" href="{{ url_for('edit_task', task_id=task._id) }}">Edit</a>
+      </div>
+      <div class="col s9 task_header">
+        <strong>{{ task.task_name }}</strong> - {{ task.due_date }}
+      </div>
     </div>
     <div class="collapsible-body">
       <span>{{ task.task_description }}</span>
