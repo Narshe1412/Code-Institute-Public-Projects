@@ -64,6 +64,20 @@ def get_categories():
     return render_template('categories.html', categories=mongo.db.categories.find())
 
 
+@app.route('/edit_category/<category_id>')
+def edit_category(category_id):
+    return render_template('editCategory.html',
+                           category=mongo.db.categories.find_one({'_id': ObjectId(category_id)}))
+
+
+@app.route('/update_category/<category_id>', methods=['POST'])
+def update_category(category_id):
+    mongo.db.categories.update(
+        {'_id': ObjectId(category_id)},
+        {'category_name': request.form.get('category_name')})
+    return redirect(url_for('get_categories'))
+
+
 # Main
 if __name__ == "__main__":
     if(os.environ.get("WINDIR")):
