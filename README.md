@@ -16,12 +16,14 @@ Belows there's also a section for the hands-on projects, built from scratch with
 - [Sass](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-sass)
 - [Python Unit Testing](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-python-unittest)
 - [Python Flask Framework](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-python-flask)
+- [Python MongoDB Driver](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-python-mongo)
 
 ## Guided Projects
 
 - [Online Resume Website](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/project-resume)
 - [Data Dashboard](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/project-d3-dashboard) (D3, DC and Crosstab)
 - [Lightweight chat app](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/project-python-chat) (Flask)
+- [ToDo App](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/project-data-driven) (Flask, MongoDB)
 
 ## Course Projects
 
