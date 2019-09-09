@@ -13,7 +13,7 @@ pbr==5.4.1
 psycopg2==2.7.3.2
 pylint==1.8.1
 pylint-django==0.8.0
-pylint-flask==0.5
+pylint-flask==0.6
 pylint-plugin-utils==0.5
 pytz==2019.1
 six==1.12.0
