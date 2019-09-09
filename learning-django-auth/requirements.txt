@@ -10,7 +10,7 @@ lazy-object-proxy==1.4.1
 mccabe==0.6.1
 parso==0.5.1
 pbr==5.4.1
-psycopg2==2.7.3.2
+psycopg2==2.8.3
 pylint==1.8.1
 pylint-django==0.8.0
 pylint-flask==0.5
