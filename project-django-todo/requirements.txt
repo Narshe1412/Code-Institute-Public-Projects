@@ -12,7 +12,7 @@ parso==0.5.1
 pbr==5.4.1
 psycopg2==2.8.3
 pylint==1.8.1
-pylint-django==0.8.0
+pylint-django==2.0.11
 pylint-flask==0.5
 pylint-plugin-utils==0.5
 pytz==2019.1
