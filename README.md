@@ -17,6 +17,7 @@ Belows there's also a section for the hands-on projects, built from scratch with
 - [Python Unit Testing](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-python-unittest)
 - [Python Flask Framework](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-python-flask)
 - [Python MongoDB Driver](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-mongo)
+- [Django Authentication](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/learning-django-auth)
 
 ## Guided Projects
 
@@ -24,7 +25,11 @@ Belows there's also a section for the hands-on projects, built from scratch with
 - [Data Dashboard](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/project-d3-dashboard) (D3, DC and Crosstab)
 - [Lightweight chat app](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/project-python-chat) (Flask)
 - [ToDo App](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/project-data-driven) (Flask, MongoDB)
+- [Django Blog App](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/project-django-blog) (Django, Postgres)
+- [Django Todo App](https://github.com/Narshe1412/Code-Institute-Public-Projects/tree/master/project-django-todo) (Django, Sqlite3)
 
 ## Course Projects
 
-- [User Centric Responsive Website](https://narshe1412.github.io/Code-Institute-User-Centric-Frontend/) (HTML, CSS, Bootstrap)
+- [User Centric Responsive Website Project](https://narshe1412.github.io/Code-Institute-User-Centric-Frontend/) (HTML, CSS, Bootstrap)
+- [Interactive Frontend Project](https://narshe1412.github.io/Code-Institute-Interactive-Frontend-Algorithms/) (Angular 6, Bootstrap, Highcharts)
+- [Data Centric Project](https://narshe1412.github.io/Code-Institute-Data-Centric-Project/) (Angular 8, Flask, MongoDB)
