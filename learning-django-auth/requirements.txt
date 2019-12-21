@@ -5,7 +5,7 @@ Django==3.0
 gunicorn==20.0.4
 ikp3db==1.4.1
 isort==4.3.21
-jedi==0.15.1
+jedi==0.15.2
 lazy-object-proxy==1.4.3
 mccabe==0.6.1
 parso==0.5.1
