@@ -20,5 +20,5 @@ six==1.13.0
 stevedore==1.31.0
 virtualenv==16.7.9
 virtualenv-clone==0.5.3
-virtualenvwrapper==4.8.4
+virtualenvwrapper==5.0.0
 wrapt==1.11.2
