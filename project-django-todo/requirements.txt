@@ -18,7 +18,7 @@ pylint-plugin-utils==0.6
 pytz==2019.3
 six==1.14.0
 stevedore==1.32.0
-virtualenv==20.0.10
+virtualenv==20.0.17
 virtualenv-clone==0.5.3
 virtualenvwrapper==4.8.4
 wrapt==1.12.1
