@@ -20,6 +20,6 @@ pytz==2020.1
 six==1.14.0
 stevedore==1.32.0
 virtualenv-clone==0.5.4
-virtualenv==20.0.18
+virtualenv==20.0.20
 virtualenvwrapper==4.8.4
 wrapt==1.12.1
