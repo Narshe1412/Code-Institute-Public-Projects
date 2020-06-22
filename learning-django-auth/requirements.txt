@@ -16,7 +16,7 @@ pylint-django==2.0.15
 pylint-flask==0.6
 pylint-plugin-utils==0.6
 pytz==2020.1
-stevedore==2.0.0
+stevedore==2.0.1
 six==1.15.0
 virtualenv-clone==0.5.4
 virtualenv==20.0.21
