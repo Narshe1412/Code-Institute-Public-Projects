@@ -8,9 +8,8 @@ isort==5.0.6
 lazy-object-proxy==1.5.1
 jedi==0.17.2
 mccabe==0.6.1
-pbr==5.4.5
+pbr==5.5.0
 parso==0.8.0
-pbr==5.4.5
 psycopg2==2.8.5
 pylint==2.6.0
 pylint-django==2.3.0
