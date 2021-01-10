@@ -10,7 +10,7 @@ jedi==0.17.2
 mccabe==0.6.1
 psycopg2==2.8.6
 pylint==2.6.0
-pylint-django==2.3.0
+pylint-django==2.4.2
 pylint-flask==0.6
 pylint-plugin-utils==0.6
 pytz==2020.1
