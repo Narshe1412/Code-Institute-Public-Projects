@@ -11,7 +11,7 @@ mccabe==0.6.1
 psycopg2==2.8.6
 pbr==5.5.0
 parso==0.8.0
-pylint==2.6.0
+pylint==2.11.0
 pylint-django==2.3.0
 pylint-flask==0.6
 pylint-plugin-utils==0.6
