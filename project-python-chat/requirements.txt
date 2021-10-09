@@ -1,4 +1,4 @@
-Click==8.0.1
+Click==8.0.2
 Flask==2.0.1
 Jinja2==2.11.3
 MarkupSafe==1.1.1
