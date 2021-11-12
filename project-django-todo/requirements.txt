@@ -8,7 +8,7 @@ isort==5.5.3
 lazy-object-proxy==1.6.0
 jedi==0.17.2
 mccabe==0.6.1
-psycopg2==2.8.6
+psycopg2==2.9.2
 pbr==5.5.0
 parso==0.8.0
 pylint==2.6.0
