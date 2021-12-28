@@ -12,7 +12,7 @@ psycopg2==2.8.6
 pylint==2.6.0
 pylint-django==2.3.0
 pylint-flask==0.6
-pylint-plugin-utils==0.6
+pylint-plugin-utils==0.7
 pytz==2020.1
 stevedore==3.2.2
 six==1.15.0
