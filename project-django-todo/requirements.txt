@@ -7,7 +7,7 @@ ikp3db==1.4.1
 isort==5.5.3
 lazy-object-proxy==1.6.0
 jedi==0.17.2
-mccabe==0.6.1
+mccabe==0.7.0
 psycopg2==2.8.6
 pbr==5.5.0
 parso==0.8.0
